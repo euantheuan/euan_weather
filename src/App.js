@@ -2,8 +2,9 @@ import { useEffect, useState } from 'react';
 import * as convert from 'xml-js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import './reset.css';
+import './font.css';
 import WeatherBox from './component/WeatherBox';
-import WeatherButton from './component/WeatherButton';
 import AirBox from './component/AirBox';
 
 function App() {
